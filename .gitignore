@@ -1,0 +1,11 @@
+*.o
+*.d
+*.cmd
+CMakeCache.txt
+CMakeFiles/
+cmake-build*/
+build/
+build-*/
+out/
+.idea/
+*.apk

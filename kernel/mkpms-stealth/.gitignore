@@ -1,0 +1,24 @@
+.idea/
+.vscode/
+**/.vscode/
+build/
+cmake-build-*/
+*.o
+*.a
+*.so
+*.kpm
+*.zip
+*.bak
+*.swp
+tools/dbc_rw/example_rw
+tools/stealth_inject/stealth_inject
+kpms/wxshadow/wxshadow_client
+examples/**/launcher/so_embed.c
+
+# 例子工程自带产物（dbc / libdbc.so / stealth.kpm / libdobby.a）
+!examples/dbc_lostgo_hook/outputs/
+!examples/dbc_lostgo_hook/outputs/**
+!examples/dbc_lostgo_hook/prebuilt/
+!examples/dbc_lostgo_hook/prebuilt/**
+!examples/dbc_lostgo_hook/DBC/libs/
+!examples/dbc_lostgo_hook/DBC/libs/**
